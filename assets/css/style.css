@@ -1,0 +1,219 @@
+body {
+    position: relative;
+    background: #FFCB14;
+}
+
+/* for home.html */
+.container {
+    margin: 90px 40px 30px 40px
+}
+
+/* for header.html */
+.profile-img {
+    width: 134px;
+    height: 140px;
+    margin: 50px 0px 0px 0px;
+    border-radius: 236px;
+}
+.header-title-first {
+    margin: 0;
+
+    font-family: Playfair Display;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 96px;
+
+    color: #000000;
+}
+
+.header-title-last {
+    margin-top: -50px;
+    margin-right: auto;
+    margin-bottom: 0;
+
+    font-family: Playfair Display;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 96px;
+
+    color: #000000;
+}
+
+/* for content.html */
+.content {
+    margin: 10px 0px 0px 0px;
+
+    font-family: 'Roboto Mono', monospace;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 45px;
+    line-height: 58px;
+
+    color: #000000;
+}
+
+a.page-tech, 
+a.page-bible,
+a.page-twitter,
+a.page-github,
+a.page-email {
+    font-weight: 700;
+}
+
+.page-title {
+    margin: 0;
+
+    font-family: Playfair Display;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 64px;
+}
+
+a:link {
+    
+    color: #710673;
+    text-decoration: none;
+}
+
+a:visited {
+    color: #710673;
+}
+
+a:hover {
+    color: white;
+    
+}
+
+/* for posts.html */
+.post-title {
+    color: white;
+}
+
+.post-date {
+    color: #fafafa;
+}
+
+.post-divider {
+    color: #fafafa;
+}
+
+@media screen and (max-height: 700px) {
+    .container {
+        margin: 0px 40px 30px 40px
+    }
+
+    .profile-img {
+        margin-top: 20px;
+    }
+
+    .header-title-first, .header-title-last {
+        font-size: 85px;
+    }
+
+    .header-title-last {
+        margin-top: -45px;
+    }
+
+    .content {
+        font-size: 39px;
+        line-height: 47px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .container {
+        margin: 60px 10px 30px 10px
+    }
+
+    .header-title-first, .header-title-last {
+        font-size: 85px;
+    }
+
+    .header-title-last {
+        margin-top: -45px;
+    }
+
+    .content {
+        font-size: 35px;
+        line-height: 40px;
+    }
+}
+
+@media screen and (max-width: 470px) {
+    .container {
+        margin: 60px 10px 30px 10px
+    }
+
+    .header-title-first, .header-title-last {
+        font-size: 80px;
+    }
+
+    .header-title-last {
+        margin-top: -45px;
+    }
+
+    .page-title {
+        font-size: 40px;
+        margin-bottom: -12px;
+    }
+
+    .content {
+        font-size: 32px;
+        line-height: 40px;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .header-title-first, .header-title-last {
+        font-size: 75px;
+    }
+
+    .header-title-last {
+        margin-top: -40px;
+    }
+}
+
+@media screen and (max-width: 360px) {
+    .profile-img {
+        width: 114;
+        height: 120;
+    }
+
+    .header-title-first, .header-title-last {
+        font-size: 70px;
+    }
+
+    .header-title-last {
+        margin-top: -40px;
+    }
+
+    .page-title {
+        font-size: 35px;
+        margin-bottom: -15px;
+    }
+
+    .content {
+        font-size: 29px;
+        line-height: 38px;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .profile-img {
+        width: 114;
+        height: 120;
+    }
+    .header-title-first, .header-title-last {
+        font-size: 60px;
+    }
+
+    .header-title-last {
+        margin-top: -30px;
+    }
+
+    .content {
+        font-size: 26px;
+        line-height: 38px;
+    }
+}

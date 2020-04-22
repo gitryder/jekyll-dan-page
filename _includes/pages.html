@@ -1,0 +1,31 @@
+<div class="pages-container">
+        <!-- Loop through all available pages -->
+    {%  for page in site.pages %}
+
+    <!-- If the page.title is twitter, use link to your twitter -->
+    {% if page.title == "twitter" %}
+        <h3 class="page-title">
+            <a href="https://www.twitter.com/androidanyl"> 
+                {{page.title}} 
+            </a>
+        </h3>
+
+    <!-- If the page.title is github, use your github link -->
+    {% elsif page.title == "github" %}
+        <h3 class="page-title">
+            <a href="https://www.github.com/gitryder"> 
+                {{page.title}} 
+            </a>
+        </h3>
+
+    <!-- Else just use the permalink specified in the page -->
+    {% else %}
+        <h3 class="page-title">
+            <a href="{{page.url}}"> 
+                {{page.title}} 
+            </a>
+        </h3>
+    {% endif %}
+
+    {% endfor %}
+</div>
