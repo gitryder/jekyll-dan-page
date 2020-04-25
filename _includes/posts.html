@@ -1,5 +1,9 @@
 {% for post in site.posts %}
-    <h2 class="post-title">{{post.title}}</h2>
-    <h4 class="post-date">{{post.date | date: "%b %-d, %Y"}}</h4>
-    <hr class="post-divider">
+    <div class="post-container">
+        <a href="{{post.url}}">
+            <h1 class="post-title">{{post.title}}</h1>
+            {{post.excerpt}}
+            <h4 class="post-date">{{post.date | date: "%b %-d, %Y"}}</h4>
+        </a>
+    </div>
 {% endfor %}

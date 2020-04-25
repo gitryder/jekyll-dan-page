@@ -1,9 +1,13 @@
 ---
 layout: post
+author: Danyl Fernandes
 title:  "Spirit, Soul & Body"
 date:   2020-04-01
-permalink: "/spirit-soul-body/"
+permalink: "/bible/spirit-soul-body/"
+excerpt_separator: <!--more-->
 ---
+"you are a seed -- God has put everything inside you"
+<!--more-->
 
 # Spirit, Soul and Body
 Before we begin,

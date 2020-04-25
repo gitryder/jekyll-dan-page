@@ -1,15 +1,19 @@
 ---
 layout: post
+author: Danyl Fernandes
 title:  "Labor Pains & the Bible"
 date:   2020-04-14 10:42:14 +0530
-permalink: "/labor-pain-bible/"
+permalink: "/bible/labor-pain-bible/"
+excerpt_separator: <!--more-->
 ---
+are labor pains a curse? can any woman escape it? read to find out...
+<!--more-->
 
 # Labor Pains & the Bible
 
 Have you ever wondered why women are still under the curse of childbirth pain - why do they still experience labor pains if Jesus took all curses? Is it even a curse? Is it for all women?
 
-**SO MANY QUESTIONS!! :anguished:**
+**So many questions! :anguished:**
 
 Worry not! I bring some answers to you through the explaining of secrets hidden in the Bible.
 

@@ -1,0 +1,180 @@
+body {
+    margin: 14px 10% 14px 10%;
+
+    display: inline-block;
+    background-color:whitesmoke;
+
+    font-family: Playfair Display;
+}
+
+body > div > p:nth-child(3) {
+    display: none;
+}
+
+.page-title {
+    color: red;
+}
+
+.post-meta-date {
+    margin: 0px;
+    font-family: Playfair Display;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+
+    color: #5A5A5A;
+}
+
+h1, h2, h3, h4 {
+    margin: 10px 0px 15 px 0px;
+
+    line-height: 40px;
+
+    color: #444;
+}
+
+h1 {
+    font-size: 45px;
+}
+
+h2 {
+    font-size: 40px;
+}
+
+h3 {
+    font-size: 35px;
+}
+
+h4 {
+    font-size: 30px;
+}
+
+p, li {
+    color: #444444; 
+
+    font-family: Roboto, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+
+}
+
+li {
+    margin-bottom: 20px;
+}
+
+strong {
+    font-family: Roboto, sans-serif;
+    font-style: normal;
+    font-weight: 700;
+}
+
+blockquote {
+    background: white;
+    border-left: 10px solid #ccc;
+    margin: 0;
+    padding: 0.5em 10px;
+    quotes: "\201C""\201D""\2018""\2019";
+  }
+
+blockquote:before {
+    color: #ccc;
+    content: open-quote;
+    font-size: 4em;
+    line-height: 0.1em;
+    margin-right: 0.25em;
+    vertical-align: -0.4em;
+}
+  
+blockquote p {
+    display: inline;
+}
+
+/* Media Queries for Responsiveness */  
+
+@media screen and (max-width: 850px) {
+    body {
+        margin-left: 15%;
+        margin-right: 15%;
+    }
+}
+
+@media screen and (min-width: 1000px) {
+    body {
+        margin-left: 25%;
+        margin-right: 25%;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    body {
+        margin: 14px 7% 14px 7%;
+    }
+
+    h1, h2, h3, h4 {
+        line-height: 45px;
+    }
+}
+
+@media screen and (max-width: 470px) {
+    body {
+        margin: 14px 7% 14px 7%;
+    }
+
+    .post-meta-date { font-size: 26px; }
+
+    h1, h2, h3, h4 {
+        line-height: 45px;
+    }
+
+    h1 { font-size: 45px; }
+    h2 { font-size: 40px; }
+    h3 { font-size: 35px; }
+    h4 { font-size: 30px; }
+    p, li { font-size: 20px; }
+}
+
+@media screen and (max-width: 400px) {
+    body {
+        margin: 14px 7% 14px 7%;
+    }
+
+    .post-meta-date { font-size: 24px; }
+
+    h1 { font-size: 45px; }
+    h2 { font-size: 40px; }
+    h3 { font-size: 35px; }
+    h4 { font-size: 30px; }
+    p, li { font-size: 20px; }
+}
+
+@media screen and (max-width: 360px) {
+    body {
+        margin: 14px 7% 14px 7%;
+    }
+
+    .post-meta-date { font-size: 24px; }
+
+    h1, h2, h3, h4 {
+        line-height: 40px;
+    }
+
+    h1 { font-size: 40px; }
+    h2 { font-size: 35px; }
+    h3 { font-size: 30px; }
+    h4 { font-size: 25px; }
+    p, li { font-size: 17px; }
+}
+
+@media screen and (max-width: 320px) {
+    body {
+        margin: 15px;
+    }
+
+    h1 { font-size: 40px; }
+    h2 { font-size: 35px; }
+    h3 { font-size: 30px; }
+    h4 { font-size: 25px; }
+    p, li { font-size: 17px; }
+}
+

@@ -1,9 +1,13 @@
 ---
 layout: post
+author: Danyl Fernandes
 title:  "The Right Place"
 date:   2020-04-12 10:42:14 +0530
-permalink: "/the-right-place/"
+permalink: "/bible/the-right-place/"
+excerpt_separator: <!--more-->
 ---
+how important is it really to be in the right place?
+<!--more-->
 
 # The Right Place
 
@@ -63,7 +67,7 @@ Know that you are forever safe in Godly environments.
 > "Failing to prepare is **preparing to fail**"
 
 * When you feel like sinning and giving in to temptation, chances are you are in the wrong environment because God's environment can never have an atmosphere of sin. God never tempts anyone, the enemy does (James 1:13)
-* Make it a practice to constantly examine your environments - If you're idling around, wasting precious time doing nothing, you will most surely fall. Don't waste time (Eph 5:16), if you have nothing to do, pray or call me - we'll have a nice time studying the Word of God:stuck_out_tongue: 
+* Make it a practice to constantly examine your environments - If you're idling around, wasting precious time doing nothing, you will most surely fall. Don't waste time (Eph 5:16), if you have nothing to do, pray or call me - we'll have a nice time studying the Word of God :stuck_out_tongue: 
 * Ask the Holy Spirit to speak to you and guide you. He will only direct you in those areas that you submit to him (Proverbs 3:6)
 
 ## Final words

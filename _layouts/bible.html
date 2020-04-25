@@ -2,15 +2,14 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/css/style.css" />
+    <link rel="stylesheet" href="/assets/css/bible.css" />
     {% include fonts.html %}
     <title>Bible Study</title>
 </head>
 <body>
     <div class="container">
-        {% include header.html %}
-        <h1 class="page-title">{{page.title}}</h1>
-        <hr class="divider">
+        <h1 class="page-title">Blog</h1>
+        <h1 class="page-subtitle">{{page.title}}</h1>
         {% include posts.html %}
     </div>
 </body>

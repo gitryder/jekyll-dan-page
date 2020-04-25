@@ -1,0 +1,116 @@
+body {
+    margin: 14px;
+    background-color: #F4aBaa;
+}
+
+.page-title {
+    margin: -10px 0px 0px 0px;
+
+    font-family: Playfair Display;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 60px;
+
+    color: #000000;
+}
+
+.page-subtitle {
+    margin-top: -20px;
+    margin-left: 4px;
+    margin-bottom: 0;
+
+    font-family: Playfair Display;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 50px;
+
+    color: #000000;
+}
+
+.post-container {
+    background-color: whitesmoke;
+
+    margin: 8px 0px 8px 0px;
+    padding: 5px 10px 5px 10px;
+
+    border: 3px solid;
+}
+
+.post-container:hover {
+    border: 3px solid #3eb650;
+}
+
+.post-title {
+    margin: 5px 0px 0px 0px;
+
+    font-family: Roboto, sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 25px;
+}
+
+p {
+    margin: 0px 0px 10px 0px;
+
+    font-family: Roboto, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+
+    color: #3A3A3A;
+}
+
+.post-date {
+    margin: 0px 0px 0px 0px;
+
+    font-family: Roboto, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+
+    color: #5A5A5A;
+}
+
+a:link {
+    color: black;
+    text-decoration: none;
+}
+
+a:visited {
+    color: black;
+}
+
+@media screen and (min-width: 450px) {
+    .post-container {
+        width: 290px;
+        display: inline-block;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .page-title {
+        font-size: ;
+    }
+
+    .page-subtitle {
+        font-size: ;
+    }
+}
+
+@media screen and (max-width: 470px) {
+    .page-title {
+        font-size: 85px;
+    }
+
+    .page-subtitle {
+        font-size: 65px;
+    }
+
+    .post-title {
+        font-size: 29px;
+    }
+
+    p, .post-date {
+        font-size: 21px;
+    }
+}
