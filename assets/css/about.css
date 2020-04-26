@@ -1,40 +1,11 @@
 body {
-    background-color:whitesmoke;
-
-    font-family: Playfair Display;
-}
-
-.container {
+    padding-top: 40px;
     margin: 14px 10% 14px 10%;
 
     display: inline-block;
-}
+    background-color:whitesmoke;
 
-body > div > p:nth-child(3) {
-    display: none;
-}
-
-.post-meta-date {
-    margin: 0px;
     font-family: Playfair Display;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 20px;
-
-    color: #5A5A5A;
-}
-
-a:link {
-    color: tomato;
-    text-decoration: none;
-}
-
-a:visited {
-    color: tomato;
-}
-
-a:hover {
-    text-decoration: underline;
 }
 
 h1, h2, h3, h4 {
@@ -81,6 +52,19 @@ strong {
     font-weight: 700;
 }
 
+a:link {
+    color: tomato;
+    text-decoration: none;
+}
+
+a:visited {
+    color: tomato;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
 blockquote {
     background: white;
     border-left: 10px solid #ccc;
@@ -102,8 +86,65 @@ blockquote p {
     display: inline;
 }
 
-nav {
+/* Media Queries for Responsiveness */  
+
+@media screen and (max-width: 850px) {
+    body {
+        margin-left: 15%;
+        margin-right: 15%;
+    }
+}
+
+@media screen and (min-width: 1000px) {
+    body {
+        margin-left: 25%;
+        margin-right: 25%;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    body {
+        margin: 14px 7% 14px 7%;
+    }
+
+    h1, h2, h3, h4 {
+        line-height: 45px;
+    }
+}
+
+@media screen and (max-width: 470px) {
+    body {
+        margin: 14px 7% 14px 7%;
+    }
+
+    h1, h2, h3, h4 {
+        line-height: 45px;
+    }
+
+    h1 { font-size: 45px; }
+    h2 { font-size: 40px; }
+    h3 { font-size: 35px; }
+    h4 { font-size: 30px; }
+    p, li { font-size: 20px; }
+}
+
+@media screen and (max-width: 400px) {
+    body {
+        margin: 14px 7% 14px 7%;
+    }
+
+    h1 { font-size: 45px; }
+    h2 { font-size: 40px; }
+    h3 { font-size: 35px; }
+    h4 { font-size: 30px; }
+    p, li { font-size: 20px; }
+}
+
+hr {
     margin-top: 30px;
+}
+
+nav {
     padding: 10px;
     text-align: center;
 }
@@ -127,70 +168,10 @@ p.copyright {
     text-align: center;
 }
 
-/* Media Queries for Responsiveness */  
-
-@media screen and (max-width: 850px) {
-    .container {
-        margin-left: 15%;
-        margin-right: 15%;
-    }
-}
-
-@media screen and (min-width: 1000px) {
-    .container {
-        margin-left: 25%;
-        margin-right: 25%;
-    }
-}
-
-@media screen and (max-width: 768px) {
-    .container {
-        margin: 14px 7% 14px 7%;
-    }
-
-    h1, h2, h3, h4 {
-        line-height: 45px;
-    }
-}
-
-@media screen and (max-width: 470px) {
-    .container {
-        margin: 14px 7% 14px 7%;
-    }
-
-    .post-meta-date { font-size: 26px; }
-
-    h1, h2, h3, h4 {
-        line-height: 45px;
-    }
-
-    h1 { font-size: 45px; }
-    h2 { font-size: 40px; }
-    h3 { font-size: 35px; }
-    h4 { font-size: 30px; }
-    p, li { font-size: 20px; }
-}
-
-@media screen and (max-width: 400px) {
-    .container {
-        margin: 14px 7% 14px 7%;
-    }
-
-    .post-meta-date { font-size: 24px; }
-
-    h1 { font-size: 45px; }
-    h2 { font-size: 40px; }
-    h3 { font-size: 35px; }
-    h4 { font-size: 30px; }
-    p, li { font-size: 20px; }
-}
-
 @media screen and (max-width: 360px) {
-    .container {
+    body {
         margin: 14px 7% 14px 7%;
     }
-
-    .post-meta-date { font-size: 24px; }
 
     h1, h2, h3, h4 {
         line-height: 40px;
@@ -204,7 +185,7 @@ p.copyright {
 }
 
 @media screen and (max-width: 320px) {
-    .container {
+    body {
         margin: 15px;
     }
 
