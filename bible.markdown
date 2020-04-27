@@ -1,6 +1,6 @@
 ---
 layout: bible
-title: bible    
+title: bible-study  
 permalink: /bible/
 ---
 

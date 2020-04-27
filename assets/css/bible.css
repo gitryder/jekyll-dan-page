@@ -9,20 +9,20 @@ body {
     font-family: Playfair Display;
     font-style: normal;
     font-weight: 900;
-    font-size: 60px;
+    font-size: 50px;
 
     color: #000000;
 }
 
 .page-subtitle {
     margin-top: -20px;
-    margin-left: 4px;
-    margin-bottom: 0;
+    margin-left: 5px;
+    margin-bottom: 15px;
 
     font-family: Playfair Display;
     font-style: normal;
     font-weight: normal;
-    font-size: 50px;
+    font-size: 40px;
 
     color: #000000;
 }
@@ -30,10 +30,11 @@ body {
 .post-container {
     background-color: whitesmoke;
 
-    margin: 8px 0px 8px 0px;
-    padding: 5px 10px 5px 10px;
+    margin: 10px 0px 0px 0px;
+    padding: 5px 10px;
 
     border: 3px solid;
+    border-radius: 8px;
 }
 
 .post-container:hover {
@@ -50,7 +51,7 @@ body {
 }
 
 p {
-    margin: 0px 0px 10px 0px;
+    margin: 0px 0px 14px 0px;
 
     font-family: Roboto, sans-serif;
     font-style: normal;
@@ -80,37 +81,30 @@ a:visited {
     color: black;
 }
 
-@media screen and (min-width: 450px) {
+@media screen and (min-width: 600px) {
     .post-container {
-        width: 290px;
+        width: 315px;
         display: inline-block;
     }
 }
 
-@media screen and (max-width: 768px) {
-    .page-title {
-        font-size: ;
-    }
-
-    .page-subtitle {
-        font-size: ;
-    }
+@media screen and (max-width: 470px) {
+    .page-title { font-size: 55px; }
+    .page-subtitle { font-size: 45px; margin-left: 2px;}
+    .post-title { font-size: 29px; }
+    p, .post-date { font-size: 21px; }
 }
 
-@media screen and (max-width: 470px) {
-    .page-title {
-        font-size: 85px;
-    }
+@media screen and (max-width: 400px) {
+    .page-title { font-size: 55px; }
+    .page-subtitle { font-size: 45px; margin-left: 2px;}
+    .post-title { font-size: 25px; }
+    p, .post-date { font-size: 17px; }
+}
 
-    .page-subtitle {
-        font-size: 65px;
-    }
-
-    .post-title {
-        font-size: 29px;
-    }
-
-    p, .post-date {
-        font-size: 21px;
-    }
+@media screen and (max-width: 360px) {
+    .page-title { font-size: 55px; }
+    .page-subtitle { font-size: 45px; margin-left: 2px;}
+    .post-title { font-size: 25px; }
+    p, .post-date { font-size: 18px; }
 }
