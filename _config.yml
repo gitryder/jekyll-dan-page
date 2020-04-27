@@ -29,17 +29,14 @@ url: "" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: androidan
 github_username:  gitryder
 
+# Google Analytics ID
+g_analytics_id: UA-164739467-1
+
 # Build settings
 theme: minima
 plugins:
   - jekyll-feed
   - jemoji
-  - jekyll-analytics
-
-jekyll_analytics:
-  GoogleAnalytics:          # Add, if you want to track with Google Analytics
-    id: UA-164739467-1      # Required - replace with your tracking id
-    anonymizeIp: false 
 
 # Exclude from processing.
 # The following items will not be processed, by default.
