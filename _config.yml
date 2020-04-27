@@ -34,6 +34,12 @@ theme: minima
 plugins:
   - jekyll-feed
   - jemoji
+  - jekyll-analytics
+
+jekyll_analytics:
+  GoogleAnalytics:          # Add, if you want to track with Google Analytics
+    id: UA-164739467-1      # Required - replace with your tracking id
+    anonymizeIp: false 
 
 # Exclude from processing.
 # The following items will not be processed, by default.

@@ -31,3 +31,7 @@ gem "wdm", "~> 0.1.1", :install_if => Gem.win_platform?
 # This will add emoji support
 # Jekyll Jemoji support
 gem 'jemoji'
+
+# This will add google-analytics 
+# support
+gem 'jekyll-analytics'
