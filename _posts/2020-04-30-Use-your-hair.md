@@ -11,19 +11,13 @@ What does Samson's hair mean to us today? Read to find out...
 
 # Use your hair 
 
-I have seen a lot of people not grow in their walk with God. They never transition to the next level of anointing. Yes they pray well, they sing well, they dance well, all those things are good but are those things really the things that **destroy the enemy?**
-
-See, we (as believers in Christ) have been assigned a task. The task is to destroy the works of the enemy. Who is the enemy? the fallen angel -- the devil.
-
 > And these signs shall follow them that believe; In my name shall they cast out devils; they shall speak with new tongues; - *Mark 16:17 KJV*
 
-Show me one verse where the bible says that when you believe you would begin writing songs. NO! Jesus said, **"...they shall cast out devils".** Notice before Jesus could speak about tongues, He chose to speak about casting out devils.
+Before you speak in tongues, cast out demons.
 
-> Before you speak in tongues, cast out demons.
+I have never had any spiritual person tell me that I should "bind" or "cast" demons out. Never. I have instead heard some speak that you need to have a very old relation with God to do all this. 
 
-I see people writing songs today and doing everything possible; and I'm not against that at all, I know it is biblical (Psalms 105:2). They're the best musicians, the best singers, the best everything but how many demons have they cast out? How many spirits have they bound?
-
-In fact, I have never had any **"spiritual"** person tell me that I should "bind" or "cast" demons out. Never. I have instead heard some speak that you need to have a very old relation with God to do all this. So (according to them) one can cast out demons etc. after they've been in ministry for 8-10+ years...:man_facepalming:
+So (according to them) one can cast out demons etc. after they've been in ministry for 8-10+ years...:man_facepalming:
 
 **Now,** Let me explain what you need in order to break strongholds, using the story of the Strongest man of the Bible -- Samson
 
