@@ -5,6 +5,7 @@ title:  "Use your hair"
 date:   2020-04-30
 permalink: "/bible/use-your-hair/"
 excerpt_separator: <!--more-->
+category: bible
 ---
 What does Samson's hair mean to us today? Read to find out...
 <!--more-->

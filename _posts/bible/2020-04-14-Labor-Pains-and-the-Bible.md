@@ -5,6 +5,7 @@ title:  "Labor Pains & the Bible"
 date:   2020-04-14 10:42:14 +0530
 permalink: "/bible/labor-pain-bible/"
 excerpt_separator: <!--more-->
+category: bible
 ---
 are labor pains a curse? can any woman escape it? read to find out...
 <!--more-->

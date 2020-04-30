@@ -53,7 +53,7 @@ a.page-twitter,
 a.page-github,
 a.page-email {
     font-weight: 700;
-}
+    }
 
 .page-title {
     margin: 0;
@@ -66,6 +66,7 @@ a.page-email {
 }
 
 a:link {
+    
     color: #710673;
     text-decoration: none;
 }
