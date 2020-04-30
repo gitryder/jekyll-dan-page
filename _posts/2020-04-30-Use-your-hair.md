@@ -1,12 +1,12 @@
 ---
 layout: post
 author: Danyl Fernandes
-title:  "Use the little"
+title:  "Use your hair"
 date:   2020-04-30
-permalink: "/bible/use-the-little/"
+permalink: "/bible/use-your-hair/"
 excerpt_separator: <!--more-->
 ---
-How much relation with God is required to start destroying the enemy's empire? Click to find out...
+What does Samson's hair mean to us today? Read to find out...
 <!--more-->
 
 # Use the little 
