@@ -173,6 +173,7 @@ p.copyright {
     h3 { font-size: 35px; }
     h4 { font-size: 30px; }
     p, li { font-size: 19px; }
+    blockquote p { font-size: 18px; }
 }
 
 @media screen and (max-width: 400px) {
@@ -187,6 +188,7 @@ p.copyright {
     h3 { font-size: 35px; }
     h4 { font-size: 30px; }
     p, li { font-size: 19px; }
+    blockquote p { font-size: 17px; }   
 }
 
 @media screen and (max-width: 360px) {
@@ -205,6 +207,7 @@ p.copyright {
     h3 { font-size: 30px; }
     h4 { font-size: 25px; }
     p, li { font-size: 17px; }
+    blockquote p { font-size: 16px; }
 }
 
 @media screen and (max-width: 320px) {
@@ -217,5 +220,6 @@ p.copyright {
     h3 { font-size: 30px; }
     h4 { font-size: 25px; }
     p, li { font-size: 17px; }
+    blockquote p { font-size: 16px; }
 }
 
