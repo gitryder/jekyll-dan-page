@@ -9,7 +9,7 @@ excerpt_separator: <!--more-->
 What does Samson's hair mean to us today? Read to find out...
 <!--more-->
 
-# Use the little 
+# Use your hair 
 
 I have seen a lot of people not grow in their walk with God. They never transition to the next level of anointing. Yes they pray well, they sing well, they dance well, all those things are good but are those things really the things that **destroy the enemy?**
 
