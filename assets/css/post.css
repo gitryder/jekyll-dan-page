@@ -64,7 +64,7 @@ h4 {
 p, li {
     color: #444444; 
 
-    font-family: 'Fauna One', sans-serif;
+    font-family: 'IBM Plex Serif', sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 18px;
@@ -172,7 +172,7 @@ p.copyright {
     h2 { font-size: 40px; }
     h3 { font-size: 35px; }
     h4 { font-size: 30px; }
-    p, li { font-size: 20px; }
+    p, li { font-size: 19px; }
 }
 
 @media screen and (max-width: 400px) {
@@ -186,7 +186,7 @@ p.copyright {
     h2 { font-size: 40px; }
     h3 { font-size: 35px; }
     h4 { font-size: 30px; }
-    p, li { font-size: 20px; }
+    p, li { font-size: 19px; }
 }
 
 @media screen and (max-width: 360px) {
