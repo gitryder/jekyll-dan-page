@@ -1,160 +1,128 @@
-html {
-    scroll-behavior: smooth;
+/*variables*/
+:root {
+    --primary-light: #5376FF;
+    --primary-dark: #0336FF;
+    --secondary: #FFDE03;
+
+    --heading1: 75px;
+    --heading2: 54;
+    --paragraph: 40px;
 }
 
+/*reset*/
+body, h1, h2, p, a {
+    margin: 0;
+    padding: 0; 
+}
+
+/*common styles*/
+section {
+    padding: 15% 5% 15% 5%;
+}
+
+/*base styles*/
+section#home {
+    background-color: var(--primary-light);
+}
+
+section#work {
+    background-color: var(--secondary);
+}
+
+section#about {
+    background-color: var(--primary-light);
+}
+
+section#social {
+    background-color: var(--secondary);
+}
+
+/*padding*/
+
+/*fonts*/
 body {
-    margin: 14px 10%;
-    position: relative;
-    background: #FFCB14;
-}
-
-.profile-img {
-    width: 120px;
-    height: 120px;
-    margin: 50px 0px 0px 0px;
-    border-radius: 236px;
-}
-
-.header-title-first, .header-title-last {
-    font-family: Playfair Display;
-    font-size: 70px;
-
-    color: #000000;
-
-}
-
-.header-title-first {
-    margin: -10px 0px 0px 0px;
-    
-    font-weight: 900;
-}
-
-.header-title-last {
-    margin: -38px 0px 0px 0px;
-
+    font-family: Rakkas;
     font-weight: normal;
 }
 
-/* for content.html */
-.content {
-    margin: 8px 0px 10px 0px;
-
-    font-family: 'Roboto Mono', monospace;
-    font-style: normal;
-    font-weight: 300;
-    font-size: 25px;
-
-    color: #000000;
+section#home {
+    padding: 5%;
+    height: 90%;
+}
+section#home h1.name {
+    margin-top: 40%;
+}
+section#home h1.name, h1.surname {
+    font-size: var(--heading1);
+}
+section#home h1.surname {
+    margin-top: -50px;
+}
+section#home p {
+    margin-top: -10px;
+    font-size: var(--paragraph);
+    line-height: var(--paragraph);
 }
 
-a.page-tech, 
-a.page-bible,
-a.page-twitter,
-a.page-github,
-a.page-email {
-    font-weight: 700;
-    }
-
-.page-title {
-    margin: 0;
-
-    font-family: Playfair Display;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 48px;
-    line-height: 64px;
+section#work h1{
+    font-size: var(--heading1);
+}
+section#work h2.title-apps, h2.title-code {
+    margin-top: 15px;
+    font-size: var(--heading2);
+}
+section#work p {
+    font-size: var(--paragraph);
+    line-height: var(--paragraph);
 }
 
-a:link {
-    
-    color: #710673;
-    text-decoration: none;
+section#about h1{
+    font-size: var(--heading1);
+}
+section#about p.about-line-one {
+    font-size: var(--paragraph);
+    line-height: var(--paragraph);
 }
 
-a:visited {
-    color: #710673;
+section#about p.about-line-two, p.about-line-three {
+    margin-top: 40px;
+    font-size: var(--paragraph);
+    line-height: var(--paragraph);
 }
 
-a:hover {
-    color: white;
-    
+
+section#social h1{
+    font-size: var(--heading1);
+}
+section#social p.social-line-one {
+    font-size: var(--paragraph);
+    line-height: var(--paragraph);
+}
+section#social p.social-line-two, p.social-line-three {
+    margin-top: 40px;
+    font-size: var(--paragraph);
+    line-height: var(--paragraph);
 }
 
-@media screen and (min-width: 1000px) {
-    body {
-        margin: 14px 20%;
-    }
+/*text colors*/
+h1.name, h1.surname {
+    color: whitesmoke
 }
 
-@media screen and (max-height: 1000px) {
-    body { 
-        margin-top: 0px; 
-        margin-bottom: 0px;
-    }
-
-    .profile-img {
-        margin-top: 33%;
-    }
+section#work h1, h2 {
+    color: var(--primary-dark);
 }
 
-@media screen and (max-height: 750px) {
-    body { 
-        margin-top: 0px; 
-        margin-bottom: 0px;
-    }
-
-    .profile-img {
-        margin-top: 15%;
-    }
+section#about h1 {
+    color: var(--secondary);
 }
 
-@media screen and (max-height: 640px) {
-    body { 
-        margin-top: 0px; 
-        margin-bottom: 0px;
-    }
-
-    .profile-img {
-        margin-top: 12%;
-    }
+section#about p {
+    color: whitesmoke;
 }
 
-@media screen and (max-height: 568px) {
-    body { 
-        margin-top: 0px; 
-        margin-bottom: 0px;
-    }
-
-    .profile-img {
-        margin-top: 10%;
-    }
+section#social h1 {
+    color: var(--primary-dark);
 }
 
-@media screen and (max-width: 470px) {
-    body { margin: 0px 8% }
-    .header-title-first, .header-title-last { font-size: 65; }
-    .header-title-last { margin-top: -30; }
-    .content { font-size: 28px; }
-}
-
-@media screen and (max-width: 400px) {
-    body { margin: 0px 5% }
-    .header-title-first, .header-title-last { font-size: 60; }
-    .header-title-last { margin-top: -30; }
-    .content { font-size: 28px; }
-}
-
-@media screen and (max-width: 360px) {
-    body { margin: 0px 8% }
-    .header-title-first, .header-title-last { font-size: 60; }
-    .header-title-last { margin-top: -30; }
-    .content { font-size: 28px; }
-}
-
-@media screen and (max-width: 320px) {
-    body { margin: 0px 5% }
-    .header-title-first, .header-title-last { font-size: 60; }
-    .header-title-last { margin-top: -30; }
-    .content { font-size: 24px; }
-}
-
+/*mobile styles*/
