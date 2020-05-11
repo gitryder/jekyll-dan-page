@@ -1,13 +1,26 @@
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <link rel="stylesheet" href="/assets/css/home.css" />
     {% include homepage_fonts.html %}
     <title>Danyl Fernandes</title>
     {% include gtag.html %}
-</head>
-<body>
-    {% include content.html %}    
-</body>
+  </head>
+  <body>
+    {% include content.html %}
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+
+      var primaryColors = ['#141A46', '#A04EF6', '#358597', '#0336FF'];
+      var secondaryColors = ['#EC8B5E', '#E7D045', '#F4A896','#FFDE03'];
+
+      var randomColorInt = Math.floor(Math.random() * primaryColors.length);
+      
+      document.documentElement.style.setProperty('--primary', primaryColors[randomColorInt]);
+      document.documentElement.style.setProperty('--secondary', secondaryColors[randomColorInt]);
+    </script>
+  </body>
 </html>

@@ -1,8 +1,7 @@
 /*variables*/
 :root {
-    --primary-light: rgb(137, 160, 250);
-    --primary-dark: #0336FF;
-    --secondary: #FFDE03;
+    --primary: #358597;
+    --secondary: #f4a896;
 
     --heading1: 75px;
     --heading2: 54;
@@ -23,7 +22,7 @@ section {
 
 /*base styles*/
 section#home {
-    background-color: var(--primary-dark);
+    background-color: var(--primary);
 }
 
 section#work {
@@ -31,7 +30,7 @@ section#work {
 }
 
 section#about {
-    background-color: var(--primary-dark);
+    background-color: var(--primary);
 }
 
 section#social {
@@ -117,7 +116,7 @@ section#home p {
 }
 
 section#work h1, h2 {
-    color: var(--primary-dark);
+    color: var(--primary   );
 }
 
 section#about h1 {
@@ -129,7 +128,7 @@ section#about p {
 }
 
 section#social h1 {
-    color: var(--primary-dark);
+    color: var(--primary   );
 }
 
 
@@ -165,7 +164,7 @@ a.mark-google-play:hover {
 
     text-decoration: none;
     color: black;
-    background: linear-gradient(to top, var(--primary-dark) 50%, transparent 50%);
+    background: whitesmoke
 }
 
 
