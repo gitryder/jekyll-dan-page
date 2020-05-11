@@ -1,160 +1,220 @@
-html {
-    scroll-behavior: smooth;
+/*variables*/
+:root {
+    --primary-light: rgb(137, 160, 250);
+    --primary-dark: #0336FF;
+    --secondary: #FFDE03;
+
+    --heading1: 75px;
+    --heading2: 54;
+    --paragraph: 40px;
+    --line-height: 42px;
 }
 
+/*reset*/
+body, h1, h2, p, a {
+    margin: 0;
+    padding: 0; 
+}
+
+/*common styles*/
+section {
+    padding: 15% 5% 15% 5%;
+}
+
+/*base styles*/
+section#home {
+    background-color: var(--primary-dark);
+}
+
+section#work {
+    background-color: var(--secondary);
+}
+
+section#about {
+    background-color: var(--primary-dark);
+}
+
+section#social {
+    background-color: var(--secondary);
+}
+
+/*fonts*/
 body {
-    margin: 14px 10%;
-    position: relative;
-    background: #FFCB14;
+    font-family: 'Rakkas', cursive;
 }
-
-.profile-img {
-    width: 120px;
-    height: 120px;
-    margin: 50px 0px 0px 0px;
-    border-radius: 236px;
-}
-
-.header-title-first, .header-title-last {
-    font-family: Playfair Display;
-    font-size: 70px;
-
-    color: #000000;
-
-}
-
-.header-title-first {
-    margin: -10px 0px 0px 0px;
-    
-    font-weight: 900;
-}
-
-.header-title-last {
-    margin: -38px 0px 0px 0px;
-
+h1,h2 {
     font-weight: normal;
 }
 
-/* for content.html */
-.content {
-    margin: 8px 0px 10px 0px;
+section#home {
+    padding: 5%;
+    height: 90%;
+}
+section#home h1.name {
+    font-weight: normal;
+    margin-top: 30%;
+}
+section#home h1.name, h1.surname {
+    font-size: var(--heading1);
+}
+section#home h1.surname {
+    margin-top: -50px;
+}
+section#home p {
+    margin-top: -10px;
 
-    font-family: 'Roboto Mono', monospace;
-    font-style: normal;
-    font-weight: 300;
-    font-size: 25px;
-
-    color: #000000;
+    font-size: var(--paragraph);
+    line-height: var(--line-height);
 }
 
-a.page-tech, 
-a.page-bible,
-a.page-twitter,
-a.page-github,
-a.page-email {
-    font-weight: 700;
+section#work h1{
+    font-size: var(--heading1);
+}
+section#work h2.title-apps, h2.title-code {
+    margin-top: 15px;
+    font-size: var(--heading2);
+}
+section#work p {
+    font-size: var(--paragraph);
+    line-height: var(--line-height);
 }
 
-.page-title {
-    margin: 0;
-
-    font-family: Playfair Display;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 48px;
-    line-height: 64px;
+section#about h1{
+    font-size: var(--heading1);
+}
+section#about p.about-line-one {
+    font-size: var(--paragraph);
+    line-height: var(--line-height);
 }
 
-a:link {
-    
-    color: #710673;
+section#about p.about-line-two, p.about-line-three {
+    margin-top: 40px;
+    font-size: var(--paragraph);
+    line-height: var(--line-height);
+}
+
+
+section#social h1{
+    font-size: var(--heading1);
+}
+section#social p.social-line-one {
+    font-size: var(--paragraph);
+    line-height: var(--line-height);
+}
+section#social p.social-line-two, p.social-line-three {
+    margin-top: 40px;
+    font-size: var(--paragraph);
+    line-height: var(--line-height);
+}
+
+/*text colors*/
+section#home h1.name, h1.surname {
+    color: var(--secondary);
+}
+
+section#home p {
+    color: whitesmoke;
+}
+
+section#work h1, h2 {
+    color: var(--primary-dark);
+}
+
+section#about h1 {
+    color: var(--secondary);
+}
+
+section#about p {
+    color: whitesmoke;
+}
+
+section#social h1 {
+    color: var(--primary-dark);
+}
+
+
+a.mark-bible-blog:link, a.mark-bible-blog:visited {
     text-decoration: none;
+    color: whitesmoke;
+    background: linear-gradient(to top, black 50%, transparent 50%);
+}
+a.mark-email:link, 
+a.mark-twitter:link, 
+a.mark-github:link, 
+a.mark-google-play:link  {
+
+    text-decoration: none;
+    color: black;
+    background: linear-gradient(to top, whitesmoke 50%, transparent 50%);
 }
 
-a:visited {
-    color: #710673;
+a.mark-email:visited,
+a.mark-twitter:visited,
+a.mark-github:visited,
+a.mark-google-play:visited {   
+
+    text-decoration: none;
+    color: black;
+    background: linear-gradient(to top, whitesmoke 50%, transparent 50%);
 }
 
-a:hover {
-    color: white;
+a.mark-email:hover, 
+a.mark-twitter:hover,
+a.mark-github:hover,
+a.mark-google-play:hover {
     
+    text-decoration: none;
+    color: black;
+    background: linear-gradient(to top, var(--primary-dark) 50%, transparent 50%);
 }
 
-@media screen and (min-width: 1000px) {
-    body {
-        margin: 14px 20%;
-    }
-}
 
-@media screen and (max-height: 1000px) {
-    body { 
-        margin-top: 0px; 
-        margin-bottom: 0px;
-    }
 
-    .profile-img {
-        margin-top: 33%;
+/*mobile styles*/
+@media screen and (min-height: 800px) {
+
+    section#home h1.name {
+        margin-top: 40%;
     }
 }
 
-@media screen and (max-height: 750px) {
-    body { 
-        margin-top: 0px; 
-        margin-bottom: 0px;
-    }
-
-    .profile-img {
-        margin-top: 15%;
+@media screen and (min-width: 1060px) {
+    section#home h1.name {
+        margin-top: 5%;
     }
 }
 
-@media screen and (max-height: 640px) {
-    body { 
-        margin-top: 0px; 
-        margin-bottom: 0px;
-    }
-
-    .profile-img {
-        margin-top: 12%;
-    }
-}
-
-@media screen and (max-height: 568px) {
-    body { 
-        margin-top: 0px; 
-        margin-bottom: 0px;
-    }
-
-    .profile-img {
+@media screen and (min-width: 900px) {
+    section#home h1.name {
         margin-top: 10%;
     }
 }
 
-@media screen and (max-width: 470px) {
-    body { margin: 0px 8% }
-    .header-title-first, .header-title-last { font-size: 65; }
-    .header-title-last { margin-top: -30; }
-    .content { font-size: 28px; }
+@media screen and (min-width: 740px) {
+    section#home h1.name {
+        margin-top: 30%;
+    }
 }
 
-@media screen and (max-width: 400px) {
-    body { margin: 0px 5% }
-    .header-title-first, .header-title-last { font-size: 60; }
-    .header-title-last { margin-top: -30; }
-    .content { font-size: 28px; }
+@media screen and (max-width: 420px) {
+    :root {
+        --heading1: 70px;
+        --heading2: 49px;
+        --paragraph: 35px;
+        --line-height: 37px;
+    }
+
 }
 
 @media screen and (max-width: 360px) {
-    body { margin: 0px 8% }
-    .header-title-first, .header-title-last { font-size: 60; }
-    .header-title-last { margin-top: -30; }
-    .content { font-size: 28px; }
+    :root {
+        --heading1: 65px;
+        --heading2: 44px;
+        --paragraph: 30px;
+        --line-height: 30px;
+    }
 }
 
-@media screen and (max-width: 320px) {
-    body { margin: 0px 5% }
-    .header-title-first, .header-title-last { font-size: 60; }
-    .header-title-last { margin-top: -30; }
-    .content { font-size: 24px; }
-}
+@media screen and (max-width: 700px) {
 
+}

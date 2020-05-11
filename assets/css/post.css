@@ -1,5 +1,5 @@
 body {
-    background-color:whitesmoke;
+    background-color:#444444;
 
     font-family: Playfair Display;
 }
@@ -21,7 +21,7 @@ body > div > p:nth-child(3) {
     font-weight: 400;
     font-size: 20px;
 
-    color: #5A5A5A;
+    color: #fafafa;
 }
 
 a:link {
@@ -42,7 +42,7 @@ h1, h2, h3, h4 {
 
     line-height: 40px;
 
-    color: #444;
+    color: whitesmoke;
 }
 
 h1 {
@@ -62,13 +62,18 @@ h4 {
 }
 
 p, li {
-    color: #444444; 
+    color: whitesmoke; 
 
-    font-family: Roboto, sans-serif;
+    font-family: 'IBM Plex Serif', sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 18px;
 
+}
+
+p {
+    margin-top: 30px;
+    line-height: 27px;
 }
 
 li {
@@ -76,16 +81,16 @@ li {
 }
 
 strong {
-    font-family: Roboto, sans-serif;
     font-style: normal;
     font-weight: 700;
 }
 
 blockquote {
-    background: white;
-    border-left: 10px solid #ccc;
+    background: #333333;
+    border-left: 8px solid #ccc;
     margin: 0;
-    padding: 0.5em 10px;
+    padding: 0.5em 25px;
+    border-radius: 5px;
     quotes: "\201C""\201D""\2018""\2019";
   }
 
@@ -99,6 +104,7 @@ blockquote:before {
 }
   
 blockquote p {
+    color: whitesmoke;
     display: inline;
 }
 
@@ -123,7 +129,7 @@ p.copyright {
     margin-top: 0px;
 
     font-size: 18px;
-    color: #5a5a5a;
+    color: #fafafa;
     text-align: center;
 }
 
@@ -155,7 +161,7 @@ p.copyright {
 
 @media screen and (max-width: 470px) {
     .container {
-        margin: 14px 7% 14px 7%;
+        margin: 14px 5% 14px 5%;
     }
 
     .post-meta-date { font-size: 26px; }
@@ -168,12 +174,13 @@ p.copyright {
     h2 { font-size: 40px; }
     h3 { font-size: 35px; }
     h4 { font-size: 30px; }
-    p, li { font-size: 20px; }
+    p, li { font-size: 19px; }
+    blockquote p { font-size: 18px; }
 }
 
 @media screen and (max-width: 400px) {
     .container {
-        margin: 14px 7% 14px 7%;
+        margin: 14px 5% 14px 5%;
     }
 
     .post-meta-date { font-size: 24px; }
@@ -182,12 +189,13 @@ p.copyright {
     h2 { font-size: 40px; }
     h3 { font-size: 35px; }
     h4 { font-size: 30px; }
-    p, li { font-size: 20px; }
+    p, li { font-size: 19px; }
+    blockquote p { font-size: 17px; }   
 }
 
 @media screen and (max-width: 360px) {
     .container {
-        margin: 14px 7% 14px 7%;
+        margin: 14px 5% 14px 5%;
     }
 
     .post-meta-date { font-size: 24px; }
@@ -201,6 +209,7 @@ p.copyright {
     h3 { font-size: 30px; }
     h4 { font-size: 25px; }
     p, li { font-size: 17px; }
+    blockquote p { font-size: 16px; }
 }
 
 @media screen and (max-width: 320px) {
@@ -213,5 +222,6 @@ p.copyright {
     h3 { font-size: 30px; }
     h4 { font-size: 25px; }
     p, li { font-size: 17px; }
+    blockquote p { font-size: 16px; }
 }
 
