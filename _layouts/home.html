@@ -17,7 +17,8 @@
       var primaryColors = ['#141A46', '#A04EF6', '#358597', '#0336FF'];
       var secondaryColors = ['#EC8B5E', '#E7D045', '#F4A896','#FFDE03'];
 
-      var randomColorInt = Math.floor(Math.random() * primaryColors.length);
+      var randomColorInt = Math.floor(Math.random() * 4);
+      console.log(randomColorInt);
       
       document.documentElement.style.setProperty('--primary', primaryColors[randomColorInt]);
       document.documentElement.style.setProperty('--secondary', secondaryColors[randomColorInt]);
