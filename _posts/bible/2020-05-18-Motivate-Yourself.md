@@ -12,11 +12,9 @@ category: bible
 
 # Motivate Yourself
 
-I've made a decision. Moving further, I'm not going to "market" my writings. Those who really want to read my writings will find their way here; there's actually no point to get anyone to read it anyway :slightly_smiling_face:
+If you are hurting right now (just like me) this is to motivate you :slightly_smiling_face:
 
 Let's begin
-
-...
 
 ### Situation
 
@@ -59,7 +57,7 @@ David had no one to motivate him. None. Why? Because the people had their own pr
 
 See, I believe, David must have known that he needs to save them. He knew he could bring them back with the help of the Lord but HE NEEDED MOTIVATION. He did that himself.
 
-Dear brother/sister, maybe you're going through a terribly rough patch in your life. I want to encourage you to **Motivate yourself **
+Dear brother/sister, maybe you're going through a terribly rough patch in your life. I want to encourage you to **Motivate yourself**
 
 I'm going to need some more time to pick myself up and put myself back together, maybe a really long time to digest the fact that I need to do it myself. But I know that the Lord is still alive. 
 

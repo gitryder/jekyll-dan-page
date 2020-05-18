@@ -1,7 +1,13 @@
-body {
-    background-color:#444444;
+:root {
+    --textColor: #221503;
+    --headerFont: 'Raleway';
+    --contentFont: 'Merriweather';
+}
 
-    font-family: Playfair Display;
+body {
+    background-color: wheat;
+
+    font-family: var(--headerFont);
 }
 
 .container {
@@ -16,12 +22,12 @@ body > div > p:nth-child(3) {
 
 .post-meta-date {
     margin: 0px;
-    font-family: Playfair Display;
+    font-family: var(--headerFont);
     font-style: normal;
     font-weight: 400;
     font-size: 20px;
 
-    color: #fafafa;
+    color: var(--textColor);
 }
 
 a:link {
@@ -38,11 +44,12 @@ a:hover {
 }
 
 h1, h2, h3, h4 {
-    margin: 10px 0px 15 px 0px;
+    margin: 35px 0px 25px 0px;
+    font-weight: normal;
 
     line-height: 40px;
 
-    color: whitesmoke;
+    color: var(--textColor);
 }
 
 h1 {
@@ -62,18 +69,18 @@ h4 {
 }
 
 p, li {
-    color: whitesmoke; 
+    color: var(--textColor); 
 
-    font-family: 'IBM Plex Serif', sans-serif;
+    font-family: var(--contentFont), sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 18px;
-
+    line-height: 31px;
 }
 
 p {
     margin-top: 30px;
-    line-height: 27px;
+    
 }
 
 li {
@@ -86,8 +93,8 @@ strong {
 }
 
 blockquote {
-    background: #333333;
-    border-left: 8px solid #ccc;
+    background: var(--textColor);
+    border-left: 8px solid rgb(250, 172, 29);
     margin: 0;
     padding: 0.5em 25px;
     border-radius: 5px;
@@ -125,11 +132,11 @@ nav a {
 }
 
 p.copyright {
-    font-family: Playfair Display;
+    font-family: var(--headerFont);
     margin-top: 0px;
 
     font-size: 18px;
-    color: #fafafa;
+    color: var(--textColor);
     text-align: center;
 }
 
@@ -161,7 +168,7 @@ p.copyright {
 
 @media screen and (max-width: 470px) {
     .container {
-        margin: 14px 5% 14px 5%;
+        margin: 14px 3% 14px 3%;
     }
 
     .post-meta-date { font-size: 26px; }
@@ -180,7 +187,7 @@ p.copyright {
 
 @media screen and (max-width: 400px) {
     .container {
-        margin: 14px 5% 14px 5%;
+        margin: 14px 3% 14px 3%;
     }
 
     .post-meta-date { font-size: 24px; }
