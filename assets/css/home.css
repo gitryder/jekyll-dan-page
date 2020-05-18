@@ -1,227 +1,265 @@
 /*variables*/
 :root {
-    --primary: #358597;
-    --secondary: #f4a896;
+  --primary: #358597;
+  --secondary: #f4a896;
 
-    --heading1: 75px;
-    --heading2: 54;
-    --paragraph: 40px;
-    --line-height: 42px;
+  --heading1: 75px;
+  --heading2: 54;
+  --paragraph: 40px;
+  --line-height: 42px;
 }
 
 /*reset*/
-body, h1, h2, p, a {
-    margin: 0;
-    padding: 0; 
+body,
+h1,
+h2,
+p,
+a {
+  margin: 0;
+  padding: 0;
 }
 
 /*common styles*/
 section {
-    padding: 15% 5% 15% 5%;
+  padding: 15% 5% 15% 5%;
+  background-attachment: fixed;
 }
 
 /*base styles*/
 section#home {
-    background-color: var(--primary);
+  background-color: var(--primary);
 }
 
 section#work {
-    background-color: var(--secondary);
+  background-color: var(--secondary);
 }
 
 section#about {
-    background-color: var(--primary);
+  background-color: var(--primary);
 }
 
 section#social {
-    background-color: var(--secondary);
+  background-color: var(--secondary);
 }
 
 /*fonts*/
 body {
-    font-family: 'Rakkas', cursive;
+  font-family: "Rakkas", cursive;
 }
-h1,h2 {
-    font-weight: normal;
+h1,
+h2 {
+  font-weight: normal;
 }
 
 section#home {
-    padding: 5%;
-    height: 90%;
+  padding: 5%;
+  height: 90%;
 }
 section#home h1.name {
-    font-weight: normal;
-    margin-top: 30%;
+  font-weight: normal;
+  margin-top: 30%;
 }
-section#home h1.name, h1.surname {
-    font-size: var(--heading1);
+section#home h1.name,
+h1.surname {
+  font-size: var(--heading1);
 }
 section#home h1.surname {
-    margin-top: -50px;
+  margin-top: -50px;
 }
 section#home p {
-    margin-top: -10px;
+  margin-top: -10px;
 
-    font-size: var(--paragraph);
-    line-height: var(--line-height);
+  font-size: var(--paragraph);
+  line-height: var(--line-height);
 }
 
-section#work h1{
-    font-size: var(--heading1);
+section#work h1 {
+  font-size: var(--heading1);
 }
-section#work h2.title-apps, h2.title-code {
-    margin-top: 15px;
-    font-size: var(--heading2);
+section#work h2.title-apps,
+h2.title-code {
+  margin-top: 15px;
+  font-size: var(--heading2);
 }
 section#work p {
-    font-size: var(--paragraph);
-    line-height: var(--line-height);
-}
-
-section#about h1{
-    font-size: var(--heading1);
-}
-section#about p.about-line-one {
-    font-size: var(--paragraph);
-    line-height: var(--line-height);
-}
-
-section#about p.about-line-two, p.about-line-three {
-    margin-top: 40px;
-    font-size: var(--paragraph);
-    line-height: var(--line-height);
-}
-
-
-section#social h1{
-    font-size: var(--heading1);
-}
-section#social p.social-line-one {
-    font-size: var(--paragraph);
-    line-height: var(--line-height);
-}
-section#social p.social-line-two, p.social-line-three {
-    margin-top: 40px;
-    font-size: var(--paragraph);
-    line-height: var(--line-height);
-}
-
-/*text colors*/
-section#home h1.name, h1.surname {
-    color: var(--secondary);
-}
-
-section#home p {
-    color: whitesmoke;
-}
-
-section#work h1, h2 {
-    color: var(--primary   );
+  font-size: var(--paragraph);
+  line-height: var(--line-height);
 }
 
 section#about h1 {
-    color: var(--secondary);
+  font-size: var(--heading1);
+}
+section#about p.about-line-one {
+  font-size: var(--paragraph);
+  line-height: var(--line-height);
 }
 
-section#about p {
-    color: whitesmoke;
+section#about p.about-line-two,
+p.about-line-three {
+  margin-top: 40px;
+  font-size: var(--paragraph);
+  line-height: var(--line-height);
 }
 
 section#social h1 {
-    color: var(--primary   );
+  font-size: var(--heading1);
+}
+section#social p.social-line-one {
+  font-size: var(--paragraph);
+  line-height: var(--line-height);
+}
+section#social p.social-line-two,
+p.social-line-three {
+  margin-top: 40px;
+  font-size: var(--paragraph);
+  line-height: var(--line-height);
 }
 
-
-a.mark-bible-blog:link, a.mark-bible-blog:visited {
-    text-decoration: none;
-    color: whitesmoke;
-    background: linear-gradient(to top, black 50%, transparent 50%);
+/*text colors*/
+section#home h1.name,
+h1.surname {
+  color: var(--secondary);
 }
-a.mark-email:link, 
-a.mark-twitter:link, 
-a.mark-github:link, 
-a.mark-google-play:link  {
 
-    text-decoration: none;
-    color: black;
-    background: linear-gradient(to top, whitesmoke 50%, transparent 50%);
+section#home p {
+  color: whitesmoke;
+}
+
+section#work h1,
+h2 {
+  color: var(--primary);
+}
+
+section#about h1 {
+  color: var(--secondary);
+}
+
+section#about p {
+  color: whitesmoke;
+}
+
+section#social h1 {
+  color: var(--primary);
+}
+
+a.mark-bible-blog:link,
+a.mark-bible-blog:visited {
+  text-decoration: none;
+  color: whitesmoke;
+  background: linear-gradient(to top, black 50%, transparent 50%);
+}
+a.mark-email:link,
+a.mark-twitter:link,
+a.mark-github:link,
+a.mark-google-play:link {
+  text-decoration: none;
+  color: black;
+  background: linear-gradient(to top, whitesmoke 50%, transparent 50%);
 }
 
 a.mark-email:visited,
 a.mark-twitter:visited,
 a.mark-github:visited,
-a.mark-google-play:visited {   
-
-    text-decoration: none;
-    color: black;
-    background: linear-gradient(to top, whitesmoke 50%, transparent 50%);
+a.mark-google-play:visited {
+  text-decoration: none;
+  color: black;
+  background: linear-gradient(to top, whitesmoke 50%, transparent 50%);
 }
 
-a.mark-email:hover, 
+a.mark-email:hover,
 a.mark-twitter:hover,
 a.mark-github:hover,
 a.mark-google-play:hover {
-
-    text-decoration: none;
-    color: black;
-    background: whitesmoke
+  text-decoration: none;
+  color: black;
+  background: whitesmoke;
 }
-
-
 
 /*mobile styles*/
 @media screen and (min-height: 800px) {
-
-    section#home h1.name {
-        margin-top: 40%;
-    }
+  section#home h1.name {
+    margin-top: 40%;
+  }
 }
 
 @media screen and (max-width: 1400px) {
-
-    section#home h1.name {
-        margin-top: 6%;
-    }
+  section#home h1.name {
+    margin-top: 6%;
+  }
 }
 
 @media screen and (max-width: 1060px) {
-
-    section#home h1.name {
-        margin-top: 10%;
-    }
+  section#home h1.name {
+    margin-top: 10%;
+  }
 }
 
 @media screen and (max-width: 900px) {
-    section#home h1.name {
-        margin-top: 10%;
-    }
+  section#home h1.name {
+    margin-top: 10%;
+  }
 }
 
 @media screen and (max-width: 740px) {
-    section#home h1.name {
-        margin-top: 30%;
-    }
+  section#home h1.name {
+    margin-top: 30%;
+  }
 }
 
 @media screen and (max-width: 420px) {
-    :root {
-        --heading1: 70px;
-        --heading2: 49px;
-        --paragraph: 35px;
-        --line-height: 37px;
-    }
-
+  :root {
+    --heading1: 70px;
+    --heading2: 49px;
+    --paragraph: 35px;
+    --line-height: 37px;
+  }
 }
 
 @media screen and (max-width: 360px) {
-    :root {
-        --heading1: 65px;
-        --heading2: 44px;
-        --paragraph: 30px;
-        --line-height: 30px;
-    }
+  :root {
+    --heading1: 65px;
+    --heading2: 44px;
+    --paragraph: 30px;
+    --line-height: 30px;
+  }
 }
 
-@media screen and (max-width: 700px) {
-
+@keyframes motionblur {
+  0% {
+    left: 0;
+    text-shadow: 0 0 0 rgba(255, 255, 255, 0);
+    box-shadow: 0 0 0 rgba(200, 0, 0, 0);
+  }
+  5% {
+    left: 0;
+    transform-origin: 0 0;
+    transform: scaleX(0.85);
+  }
+  25% {
+    text-shadow: -5px 0 5px rgba(255, 255, 255, 1);
+    box-shadow: -15px 0 10px -5px rgba(200, 0, 0, 0.5);
+    transform: scaleX(1.1) skewX(-4deg);
+  }
+  50% {
+    left: 300px;
+    text-shadow: 0 0 0 rgba(255, 255, 255, 0);
+    box-shadow: 0 0 0 rgba(200, 0, 0, 0);
+    transform: scaleX(1) skewX(0deg);
+  }
+  55% {
+    left: 300px;
+    transform-origin: 100% 0;
+    transform: scaleX(0.85);
+  }
+  75% {
+    text-shadow: 5px 0 5px rgba(255, 255, 255, 1);
+    box-shadow: 15px 0 10px -5px rgba(200, 0, 0, 0.5);
+    transform: scaleX(1.1) skewX(4deg);
+  }
+  100% {
+    left: 0px;
+    text-shadow: 0 0 0 rgba(255, 255, 255, 0);
+    box-shadow: 0 0 0 rgba(200, 0, 0, 0);
+    transform: scaleX(1) skewX(0deg);
+  }
 }
