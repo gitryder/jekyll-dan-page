@@ -9,8 +9,8 @@
 </head>
 <body>
     <div class="container">
-        <p class="post-meta-date">{{page.date | date: "%b %-d, %Y"}}</p>
-        <hr>
+        <p class="post-meta-date">{{page.date | date: "%b %-d"}}</p>
+        <hr class="post-meta-hr">
         {{content}}
     </div>
     {% include footer.html %}

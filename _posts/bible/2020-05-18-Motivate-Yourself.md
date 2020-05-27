@@ -9,10 +9,13 @@ category: bible
 
 "Alone you came, alone you shall go"
 <!--more-->
+<p>
+  <img src="/assets/posts/motivate-yourself/motivate-yourself.jpg"/>
+</p>
 
 # Motivate Yourself
 
-If you are hurting right now (just like me) this is to motivate you :slightly_smiling_face:
+It is important to learn to motivate yourself, so let's see how :slightly_smiling_face:
 
 Let's begin
 

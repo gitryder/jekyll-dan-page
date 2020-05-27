@@ -1,11 +1,12 @@
 :root {
-    --textColor: #221503;
+    --textColor: #444444;
+    --background: #f2f3f8;
     --headerFont: 'Raleway';
-    --contentFont: 'Merriweather';
+    --contentFont: 'IBM Plex Serif';
 }
 
 body {
-    background-color: wheat;
+    background-color: var(--background);
 
     font-family: var(--headerFont);
 }
@@ -22,7 +23,9 @@ body > div > p:nth-child(3) {
 
 .post-meta-date {
     margin: 0px;
-    font-family: var(--headerFont);
+    margin-left: 4px;
+
+    font-family: var(--contentFont);
     font-style: normal;
     font-weight: 400;
     font-size: 20px;
@@ -43,9 +46,19 @@ a:hover {
     text-decoration: underline;
 }
 
+img {
+    border-radius: 5px;
+    max-width: 100%;
+    vertical-align: middle;
+}
+
+hr {
+    border: 1px solid var(--textColor);
+}
+
 h1, h2, h3, h4 {
     margin: 35px 0px 25px 0px;
-    font-weight: normal;
+    font-weight: 400;
 
     line-height: 40px;
 
@@ -68,7 +81,7 @@ h4 {
     font-size: 30px;
 }
 
-p, li {
+p, li, code {
     color: var(--textColor); 
 
     font-family: var(--contentFont), sans-serif;
@@ -171,7 +184,7 @@ p.copyright {
         margin: 14px 3% 14px 3%;
     }
 
-    .post-meta-date { font-size: 26px; }
+    .post-meta-date { font-size: 20px; }
 
     h1, h2, h3, h4 {
         line-height: 45px;
@@ -190,13 +203,13 @@ p.copyright {
         margin: 14px 3% 14px 3%;
     }
 
-    .post-meta-date { font-size: 24px; }
+    .post-meta-date { font-size: 20px; }
 
     h1 { font-size: 45px; }
     h2 { font-size: 40px; }
     h3 { font-size: 35px; }
     h4 { font-size: 30px; }
-    p, li { font-size: 19px; }
+    p, li, code { font-size: 19px; }
     blockquote p { font-size: 17px; }   
 }
 
@@ -205,7 +218,7 @@ p.copyright {
         margin: 14px 5% 14px 5%;
     }
 
-    .post-meta-date { font-size: 24px; }
+    .post-meta-date { font-size: 20px; }
 
     h1, h2, h3, h4 {
         line-height: 40px;
@@ -215,7 +228,7 @@ p.copyright {
     h2 { font-size: 35px; }
     h3 { font-size: 30px; }
     h4 { font-size: 25px; }
-    p, li { font-size: 17px; }
+    p, li, code { font-size: 17px; }
     blockquote p { font-size: 16px; }
 }
 
@@ -228,7 +241,7 @@ p.copyright {
     h2 { font-size: 35px; }
     h3 { font-size: 30px; }
     h4 { font-size: 25px; }
-    p, li { font-size: 17px; }
+    p, li, code { font-size: 17px; }
     blockquote p { font-size: 16px; }
 }
 
