@@ -70,7 +70,7 @@ But see you can ask for anything, you can ask for things that you haven't even s
 
 > ...what you desired with all your life, you will value more when you receive it
 
-But why does God want you to desire? Because when you receive what what you desired only then it can become a testimony in your life. How, Danyl?
+But why does God want you to desire? Because when you receive what you desired truly, only then it can become a testimony in your life. How, Danyl?
 
 Imagine if you're desiring an iPhone - an Apple device but instead of an iPhone you are gifted the best of class phone but its an Android phone. There's no way you'll be happy because no matter how expensive the Android phone is, *you desired for something* else :stuck_out_tongue:
 
