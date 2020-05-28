@@ -9,11 +9,11 @@ category: bible
 
 "Alone you came, alone you shall go"
 <!--more-->
+
+# Motivate Yourself
 <p>
   <img src="/assets/posts/motivate-yourself/motivate-yourself.jpg"/>
 </p>
-
-# Motivate Yourself
 
 It is important to learn to motivate yourself, so let's see how :slightly_smiling_face:
 

@@ -1,7 +1,7 @@
 :root {
-    --textColor: #444444;
-    --background: #f2f3f8;
-    --headerFont: 'Raleway';
+    --textColor: #f2f3f8;
+    --background: #000000;
+    --headerFont: 'Inter';
     --contentFont: 'IBM Plex Serif';
 }
 
@@ -9,6 +9,12 @@ body {
     background-color: var(--background);
 
     font-family: var(--headerFont);
+}
+
+img#header-image {
+    border-radius: 5px;
+    max-width: 100%;
+    vertical-align: middle;
 }
 
 .container {
@@ -58,7 +64,7 @@ hr {
 
 h1, h2, h3, h4 {
     margin: 35px 0px 25px 0px;
-    font-weight: 400;
+    font-weight: normal;
 
     line-height: 40px;
 
@@ -106,8 +112,8 @@ strong {
 }
 
 blockquote {
-    background: var(--textColor);
-    border-left: 8px solid rgb(250, 172, 29);
+    background: #242424;
+    border-left: 8px solid springgreen;
     margin: 0;
     padding: 0.5em 25px;
     border-radius: 5px;
@@ -124,7 +130,7 @@ blockquote:before {
 }
   
 blockquote p {
-    color: whitesmoke;
+    color:  var(--textColor);
     display: inline;
 }
 
