@@ -1,14 +1,12 @@
 ---
 layout: post
-author: Danyl Fernandes
 title:  "Labor Pains & the Bible"
+desc: "Are labor pains a curse? can any woman escape it? read to find out..."
 date:   2020-04-14 10:42:14 +0530
 permalink: "/bible/labor-pain-bible/"
 excerpt_separator: <!--more-->
 category: bible
 ---
-are labor pains a curse? can any woman escape it? read to find out...
-<!--more-->
 
 # Labor Pains & the Bible
 

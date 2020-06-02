@@ -1,14 +1,12 @@
 ---
 layout: post
-author: Danyl Fernandes
 title:  "The Right Place"
+desc: "How important is it really to be in the right place?"
 date:   2020-04-12 10:42:14 +0530
 permalink: "/bible/the-right-place/"
 excerpt_separator: <!--more-->
 category: bible
 ---
-how important is it really to be in the right place?
-<!--more-->
 
 # The Right Place
 

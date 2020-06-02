@@ -1,14 +1,11 @@
 ---
 layout: post
 title:  "Asking vs. Desiring"
+desc: "Asking and Desiring are two different concepts. Here's an explanation..."
 date:   2020-05-28
 permalink: "/bible/asking-vs-desiring/"
-excerpt_separator: <!--more-->
 category: bible
 ---
-
-Asking and Desiring are two different concepts. Here's an explanation...
-<!--more-->
 
 # Asking vs. Desiring 
 <p>

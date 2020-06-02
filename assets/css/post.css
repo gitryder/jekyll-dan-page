@@ -23,10 +23,6 @@ img#header-image {
     display: inline-block;
 }
 
-body > div > p:nth-child(3) {
-    display: none;
-}
-
 .post-meta-date {
     margin: 0px;
     margin-left: 4px;
@@ -123,9 +119,10 @@ blockquote {
 blockquote:before {
     color: #ccc;
     content: open-quote;
+    font-family: 'Times New Roman', Times, serif;
     font-size: 4em;
     line-height: 0.1em;
-    margin-right: 0.25em;
+    margin-right: 0.10em;
     vertical-align: -0.4em;
 }
   

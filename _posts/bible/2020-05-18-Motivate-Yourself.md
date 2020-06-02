@@ -1,15 +1,11 @@
 ---
 layout: post
 title: "Motivate Yourself"
+desc: "Motivating yourself as King David did"
 date: 2020-05-18
 permalink: "/bible/motivate-yourself/"
-excerpt_separator: <!--more-->
 category: bible
 ---
-
-"Motivating yourself like King David did"
-
-<!--more-->
 
 # Motivate Yourself
 
@@ -23,16 +19,16 @@ Let's begin
 
 ### Situation
 
-I've been at an all time low at the time of this writing, probably for the longest time in my life. This is the most difficult time of my life right now because, you know, mental battles are remarkably more dangerous than physical battles
+I've been at an all-time low at the time of this writing, probably for the longest time in my life. This is the most difficult time of my life right now because, you know, mental battles are remarkably more dangerous than physical battles
 
 For over a month now I've been on a run - running from myself, running from the troubles of my mind.
 
-I was crying out in my spirit longing for one person that could try to talk to me; get to understand what the problem and also explain my problem to me because sadly I don't exactly know my own problem.
+I was crying out in my spirit longing for one person that could try to talk to me; get to understand what the problem and also explain my problem to me because sadly I don't exactly know my problem.
 
 - I wanted just that one person that could motivate me again. I felt my strength would come back if someone gave me a tight hug and allowed me to cry endlessly upon their shoulders.
 - I wanted someone to tell me that I'm going t
 
-Crying actually helps a lot, man. A lot. But there's a point where you don't have energy for that too. But, enough about me, let's talk about you...
+Crying helps a lot, man. A lot. But there's a point where you don't have the energy for that too. But, enough about me, let's talk about you...
 
 ### No blame-game, please!
 

@@ -1,13 +1,11 @@
 ---
 layout: post
 title:  "Spirit, Soul & Body"
+desc: '"you are a seed -- God has put everything inside you"'
 date:   2020-04-01
 permalink: "/bible/spirit-soul-body/"
-excerpt_separator: <!--more-->
 category: bible
 ---
-"you are a seed -- God has put everything inside you"
-<!--more-->
 
 # Spirit, Soul and Body
 Before we begin,
