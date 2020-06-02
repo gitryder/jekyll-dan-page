@@ -77,5 +77,5 @@ If you want Jesus to go with you wherever you go, you need to call him. Ask the 
 
 Ask the Holy Spirit to make Jesus real in your life and you will always have perfect direction. 
 
-#### I thank you for reading this small article that I have written. Its small for the world but its God's gift to me. God bless you. Shalom.
+I thank you for reading this small article that I have written. Its small for the world but its God's gift to me. God bless you. Shalom.
 

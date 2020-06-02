@@ -151,7 +151,7 @@ Everything must undergo pain. This is why Jesus said, "a seed must fall to the g
 * The pain of childbirth will always exist because pain alone can show you the greatness of the joy that comes after
 * You will only respect the morning if there is a night of darkness and uncertainty
 
-#### The pain that you are feeling now cannot be compared the joy that's coming (Romans 8:18). God bless you! Shalom.
+The pain that you are feeling now cannot be compared the joy that's coming (Romans 8:18). God bless you! Shalom.
 
 
 

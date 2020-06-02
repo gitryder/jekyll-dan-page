@@ -248,3 +248,51 @@ p.copyright {
     blockquote p { font-size: 16px; }
 }
 
+/*
+Social links
+*/
+
+.social-links-container {
+}
+
+.social-links-title {
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+.sharing-link:hover{
+    text-decoration: none;
+}
+
+.button-container {
+    display:inline-block;
+    place-items: center;
+
+    padding: 7px;
+    margin: 4px;
+
+    border-radius: 10px;
+}
+
+.facebook {
+    background-color: #395185;
+}
+
+.twitter {
+    background-color: #55acee;
+}
+
+.whatsapp {
+    background-color: #56D062;
+}
+
+.link-name {
+    font-family: Inter;
+    display: none;
+}

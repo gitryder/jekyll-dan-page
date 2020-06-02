@@ -78,7 +78,7 @@ I want to leave you with a some steps to incorporate in your life
 * Don't listen to every other Pastor. 
 * Pastors, Teachers are good but **learn the Bible for yourself**
 
-#### Use your little hair. Ask God for power and destroy the works of the enemy in your life and in the lives of others. God bless you! Shalom.
+Use your little hair. Ask God for power and destroy the works of the enemy in your life and in the lives of others. God bless you! Shalom.
 
 
 

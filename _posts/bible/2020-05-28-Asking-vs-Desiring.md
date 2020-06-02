@@ -86,7 +86,7 @@ Here are some things from my own experience, that might help
   * Even non-spiritual desires alike -- You can look at me and tell how much I love technology
   * Desires are very public (if they are real)
 
-#### Now finally but most importantly, Delight yourself in the Lord. You can desire as much as you want but God alone can fulfil desires. God bless you! Shalom.
+Now finally but most importantly, Delight yourself in the Lord. You can desire as much as you want but God alone can fulfil desires. God bless you! Shalom.
 
 
 

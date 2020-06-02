@@ -94,4 +94,4 @@ I'm 20 now. I came to Jesus in 2016, so my age was 16 then.
 * Your old men (parents) will dream dreams because you will remind them now of what the lord told them before your parents were even born.
 * They will have their memory back from the `Spirit Realm` into the `Earth Realm` by tapping into it using the mechanism that God made us with - our `Spirit`
 
-## I thank you so much for reading through this. May the Lord bless you for reading what He has put on my heart. God bless you and may you be rebirthed in the Spirit!
+I thank you so much for reading through this. May the Lord bless you for reading what He has put on my heart. God bless you and may you be rebirthed in the Spirit!
