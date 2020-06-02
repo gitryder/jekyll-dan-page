@@ -2,6 +2,7 @@
 layout: post
 title: "Motivate Yourself"
 desc: "Motivating yourself as King David did"
+img: "/assets/posts/motivate-yourself/motivate-yourself.jpg"
 date: 2020-05-18
 permalink: "/bible/motivate-yourself/"
 category: bible
