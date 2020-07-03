@@ -13,6 +13,8 @@ category: bible
   <img src="/assets/posts/thought-police/thought-police.jpg"/>
 </p>
 
+> Keep your heart with all diligence, For out of it spring the issues of life. - *Proverbs 4:23*
+
 The Mind of a person is a place where the most amount of bloodshed has happened and still happens today. Dreams have been killed, Ideas have been killed, And worse still, People have been killed (by words & evil thoughts) 
 
 Our Antagonist - the devil, has been defeating us on this ground since the world began. See, our countries have such civil forces as the Police & the Army, in place, for the maintenance of public order, but the place that lends itself to the service of colossal amounts of thought traffic - our minds, have nothing & no one to police it 

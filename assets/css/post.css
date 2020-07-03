@@ -1,7 +1,7 @@
 :root {
     --textColor: #f2f3f8;
     --background: #000000;
-    --headerFont: 'Playfair Display';
+    --headerFont: 'IBM Plex Serif';
     --contentFont: 'IBM Plex Serif';
 }
 
@@ -26,6 +26,8 @@ img#header-image {
 .post-meta-date {
     margin: 0px;
     margin-left: 4px;
+
+    text-align: center;
 
     font-family: var(--contentFont);
     font-style: normal;
@@ -56,6 +58,7 @@ img {
 
 hr {
     border: 1px solid var(--textColor);
+    width: 100px;
 }
 
 h1, h2, h3, h4 {
@@ -63,6 +66,7 @@ h1, h2, h3, h4 {
     font-weight: normal;
 
     line-height: 40px;
+    text-align: center;
 
     color: var(--textColor);
 }
@@ -94,8 +98,7 @@ p, li, code {
 }
 
 p {
-    margin-top: 30px;
-    
+    margin-top: 30px;    
 }
 
 li {
@@ -218,7 +221,7 @@ p.copyright {
 
 @media screen and (max-width: 360px) {
     .container {
-        margin: 14px 5% 14px 5%;
+        margin: 14px 3% 14px 3%;
     }
 
     .post-meta-date { font-size: 20px; }
