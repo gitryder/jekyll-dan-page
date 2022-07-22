@@ -39,7 +39,6 @@ GEM
       rouge (~> 3.0)
       safe_yaml (~> 1.0)
       terminal-table (~> 1.8)
-    jekyll-analytics (0.1.12)
     jekyll-feed (0.13.0)
       jekyll (>= 3.7, < 5.0)
     jekyll-sass-converter (2.1.0)
@@ -81,7 +80,7 @@ GEM
     terminal-table (1.8.0)
       unicode-display_width (~> 1.1, >= 1.1.1)
     thread_safe (0.3.6)
-    tzinfo (1.2.7)
+    tzinfo (1.2.10)
       thread_safe (~> 0.1)
     tzinfo-data (1.2019.3)
       tzinfo (>= 1.0.0)
@@ -94,7 +93,6 @@ PLATFORMS
 
 DEPENDENCIES
   jekyll (~> 4.0.0)
-  jekyll-analytics
   jekyll-feed (~> 0.12)
   jemoji
   minima (~> 2.5)
